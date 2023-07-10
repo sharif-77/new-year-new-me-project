@@ -61,8 +61,8 @@
   width: 400px;
 }
 .first-section-item-two-heading {
-    margin-bottom: 20px;
-    width: 300px;
+  margin-bottom: 20px;
+  width: 300px;
   color: #151414;
   font-family: Work Sans;
   font-size: 40px;
@@ -71,32 +71,62 @@
 .first-section-item-two-description {
   width: 400px;
   margin-bottom: 20px;
-
 }
-.checked-items-p{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.checked-items-p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 /* main first section end*/
 
 /* main second section start */
-.main-second-section{
-    padding: 50px 0px;
+.main-second-section {
+    margin-top: 50px;
+  padding: 50px 0px;
 }
-.second-section-heading{
-    text-align: center;
-    margin-bottom: 50px;
+.second-section-heading {
+  text-align: center;
+  margin-bottom: 50px;
 }
-.main-second-section-items{
-    display: flex;
-    gap: 80px;
-    align-items: center;
-    justify-content: center;
+.main-second-section-items {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
 }
-.second-section-item{
-    text-align: center;
-    line-height: 2;
+.second-section-item {
+  text-align: center;
+  line-height: 2;
 }
 /* main second section end */
+
 /* main third section start */
+.main-third-section {
+  margin-top: 50px !important;
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+  background-image: url("images/gradient1.png"), url("images/watch.png");
+  background-repeat: no-repeat;
+  /* background-blend-mode: overlay; */
+  background-position: 0, center;
+}
+.third-item {
+  width: 400px;
+}
+.third-item-heading {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.third-item-button {
+  background-color: white;
+  color: rgb(45, 45, 113);
+  padding: 20px 35px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 50px 0;
+  font-size: 17px;
+}
